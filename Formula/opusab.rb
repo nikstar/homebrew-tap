@@ -5,6 +5,7 @@ class Opusab < Formula
   head "https://github.com/nikstar/opusab.git"
 
   depends_on :xcode => ["10.0", :build]
+  depends_on "opus-tools"
   depends_on "ffmpeg"
   depends_on "media-info"
 
